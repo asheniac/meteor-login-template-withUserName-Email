@@ -1,0 +1,12 @@
+<body>
+	{{renderPage}}
+</body>
+
+<template name="dashboard_layout">
+     {{> navbar}}
+  <div class="container">
+     {{> flashMessages}}
+     {{> yield}}   
+
+  </div> <!-- /container -->
+</template>
